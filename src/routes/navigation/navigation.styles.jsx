@@ -10,6 +10,8 @@ export const Navbar = styled.div`
 
 export const NavbarBrand = styled(Link)`
   font-size: large;
+  text-decoration: none;
+  color: black;
 `;
 
 export const NavLinksContainer = styled.div`
@@ -21,4 +23,6 @@ export const NavLinksContainer = styled.div`
 
 export const Navlink = styled(Link)`
   font-size: medium;
+  text-decoration: none;
+  color: black;
 `;

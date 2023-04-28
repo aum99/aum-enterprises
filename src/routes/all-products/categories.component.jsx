@@ -2,8 +2,8 @@ import { Route, Routes } from "react-router-dom";
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 
-import AllCategories from "../../components/all categories/all-categories.component";
-import Category from "../../components/category/category.component";
+import AllProducts from "../../components/all products/all-products.component";
+import Category from "../../routes/category/category.component";
 
 import { fetchCategoriesStart } from "../../store/categories/categories.action";
 
@@ -21,7 +21,7 @@ const Categories = () => {
   });
   return (
     <Routes>
-      <Route index element={<AllCategories />} />
+      <Route index element={<AllProducts />} />
       <Route path=":category" element={<Category />} />
     </Routes>
   );

@@ -14,7 +14,7 @@ const Navigation = () => {
       <Navbar>
         <NavbarBrand to="/">Aum Enterprises</NavbarBrand>
         <NavLinksContainer>
-          <Navlink to="/categories">Categories</Navlink>
+          <Navlink to="/products">Products</Navlink>
           <Navlink to="/auth">Sign In</Navlink>
         </NavLinksContainer>
       </Navbar>
